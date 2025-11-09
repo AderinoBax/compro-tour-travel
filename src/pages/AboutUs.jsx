@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import baxTeams from '../assets/BaxDigitalTeams.jpg';
-import rinoImage from '../assets/member/Rino.png';
-import pujaImage from '../assets/member/Puja.png';
+import rinoImage from '../assets/member/rino.png';
+import pujaImage from '../assets/member/puja.png';
 
 const IconUsers = () => (
   <svg
