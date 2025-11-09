@@ -7,7 +7,7 @@ import PricingPage from './pages/Pricing.jsx';
 import PortofolioPage from './pages/Porto.jsx';
 import AboutUsPage from './pages/AboutUs.jsx';
 import ContactUsPage from './pages/ContactUs.jsx';
-import FaqPage from './Faq.jsx';
+import FaqPage from './pages/Faq.jsx';
 import WhatsAppButton from './components/WhatsAppButton.jsx';
 function App() {
   return (
