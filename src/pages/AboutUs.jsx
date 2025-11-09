@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import baxTeams from '../assets/BaxDigitalTeams.jpg';
 import rinoImage from '../assets/member/rino.png';
 import pujaImage from '../assets/member/puja.png';
+import baxTravelTeam from '../assets/baxteams/Tangsel_Base_Operation.jpeg';
 
 const IconUsers = () => (
   <svg
@@ -96,9 +97,14 @@ export default function AboutPage() {
   return (
     <div className="bg-white text-gray-800">
       <section className="relative flex h-[50vh] min-h-[300px] w-full items-center justify-center bg-linear-to-r from-blue-600 to-cyan-400 py-16 text-white">
+        <img
+                  src={baxTravelTeam}
+                  alt="Hero background"
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
         <div className="container z-10 mx-auto max-w-6xl px-6 text-center">
           <h1 className="text-4xl font-extrabold tracking-tight md:text-6xl">
-            About TourTravel
+            About - BAX Tour
           </h1>
           <p className="mt-4 text-lg text-blue-100 md:text-xl">
             We are not just a travel agency. We are your adventure partners.

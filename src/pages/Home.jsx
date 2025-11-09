@@ -54,8 +54,14 @@ const IconSupport = () => (
 export default function HomePage() {
   return (
     <div className="w-full">
-      <section className="relative flex h-[70vh] min-h-[500px] w-full items-center justify-center bg-linear-to-r from-blue-600 to-cyan-400 text-white">
-        <div className="relative z-20 container mx-auto max-w-6xl px-6 py-12 text-center">
+      <section className="relative flex h-[70vh] min-h-[500px] w-full items-center justify-center text-white">
+        <img
+          src={BaliImage}
+          alt="Hero background"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="relative z-20 container mx-auto flex h-full max-w-6xl flex-col justify-center px-6 py-12 text-center">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight md:text-6xl">
             Find Your Dream Destination
           </h1>

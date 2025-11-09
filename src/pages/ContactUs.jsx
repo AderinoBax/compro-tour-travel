@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import contactUsImage from '../assets/icon/contactUs.jpg';
 const IconMapPin = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -79,6 +80,11 @@ export default function ContactUsPage() {
   return (
     <div className="bg-white">
       <section className="relative flex h-[50vh] min-h-[300px] w-full items-center justify-center bg-linear-to-r from-blue-600 to-cyan-400 py-16 text-white">
+        <img
+                  src={contactUsImage}
+                  alt="Hero background"
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
         <div className="container z-10 mx-auto max-w-6xl px-6 text-center">
           <h1 className="text-4xl font-extrabold tracking-tight md:text-6xl">
             Contact Us

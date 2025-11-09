@@ -71,7 +71,7 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about" className={getNavLinkClass}>
+            <NavLink to="/about-us" className={getNavLinkClass}>
               About Us
             </NavLink>
           </li>
